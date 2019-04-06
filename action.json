@@ -1,0 +1,30 @@
+{
+    "accountLinking": {
+        "authenticationUrl": "https://powershift-80989.firebaseapp.com/login.html",
+        "clientId": "ABC123",
+        "grantType": "IMPLICIT"
+    },
+    "actions": [
+        {
+            "description": "Smart home action for project 568447035786",
+            "fulfillment": {
+                "conversationName": "AoGSmartHomeConversation_568447035786"
+            },
+            "name": "actions.devices"
+        }
+    ],
+    "conversations": {
+        "AoGSmartHomeConversation_568447035786": {
+            "name": "AoGSmartHomeConversation_568447035786",
+            "url": "https://us-central1-powershift-80989.cloudfunctions.net/smarthome"
+        }
+    },
+    "locale": "en",
+    "manifest": {
+        "category": "HOME_CONTROL",
+        "displayName": "PowerShift",
+        "invocationName": "PowerShift",
+        "testingInstructions": "123",
+        "voiceName": "female_1"
+    }
+}

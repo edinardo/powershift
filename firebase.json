@@ -1,0 +1,35 @@
+{
+	"hosting": {
+		"public": "public",
+		"rewrites": [
+			{
+				"source": "/oauth/**",
+				"function": "app"
+			},
+			{
+				"source": "/smarthome/**",
+				"function": "app"
+			},
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"ignore": [
+			"firebase.json",
+			"database-rules.json",
+			"functions"
+		],
+		"headers": [
+			{
+				"source": "**",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					}
+				]
+			}
+		]
+	}
+}

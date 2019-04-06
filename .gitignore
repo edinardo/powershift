@@ -1,0 +1,9 @@
+**/node_modules
+.firebaserc
+.firebase
+.settings
+.vscode
+.DS_Store
+.project
+creds.data
+package-lock.json
