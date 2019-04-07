@@ -73,7 +73,7 @@ We use [Git](https://git-scm.com/) for versioning.
 
 ## License
 
-This project is yet to be licensed under the GNU General Public License version 3
+This project is licensed under the GNU General Public License v3.0 or later - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
