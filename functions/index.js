@@ -179,4 +179,9 @@ app.onExecute(async (body, headers) => {
 	}
 });
 
+app.onDisconnect((body, header) => {
+	// TODO Disconnect user account from NVE
+	return {};
+});
+
 exports.smarthome = functions.https.onRequest(app);
