@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "actions-on-google": "^2.2.0",
-    "axios": "^0.23.0",
+    "axios": "^0.24.0",
     "cors": "^2.8.4",
     "digest-auth-request": "^0.7.0",
     "firebase-admin": "^9.0.0",
