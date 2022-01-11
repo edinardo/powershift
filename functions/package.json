@@ -5,7 +5,7 @@
     "node": "8"
   },
   "dependencies": {
-    "actions-on-google": "^2.2.0",
+    "actions-on-google": "^3.0.0",
     "axios": "^0.23.0",
     "cors": "^2.8.4",
     "digest-auth-request": "^0.7.0",
