@@ -9,7 +9,7 @@
     "axios": "^0.24.0",
     "cors": "^2.8.4",
     "digest-auth-request": "^0.7.0",
-    "firebase-admin": "^9.0.0",
+    "firebase-admin": "^10.0.2",
     "firebase-functions": "^2.2.1",
     "googleapis": "^59.0.0",
     "node-forge": "^1.0.0",
